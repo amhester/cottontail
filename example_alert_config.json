@@ -1,0 +1,32 @@
+{
+    "default": {
+        "threshold": {
+            "enabled": true,
+            "value": 1000
+        },
+        "deviation": {
+            "enabled": false,
+            "value": 3
+        },
+        "consumer": {
+            "enabled": true,
+            "value": 0
+        }
+    },
+    "queues": {
+        "example.queue": {
+            "threshold": {
+                "enabled": true,
+                "value": 3000
+            },
+            "consumer": {
+                "enabled": true,
+                "value": 0
+            },
+            "deviation": {
+                "enabled": false,
+                "value": 3
+            }
+        }
+    }
+}
